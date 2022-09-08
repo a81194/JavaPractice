@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <servlet>
+    <servlet-name>HttpServlet</servlet-name>
+    <servlet-class>FirstServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CurrentTimeServlet</servlet-name>
+    <servlet-class>CurrentTimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetParametersServlet</servlet-name>
+    <servlet-class>GetParametersServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SimpleRegistrationServlet</servlet-name>
+    <servlet-class>SimpleRegistrationServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HttpServlet</servlet-name>
+    <url-pattern>/sc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CurrentTimeServlet</servlet-name>
+    <url-pattern>/time</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetParametersServlet</servlet-name>
+    <url-pattern>/param</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SimpleRegistrationServlet</servlet-name>
+    <url-pattern>/db</url-pattern>
+  </servlet-mapping>
+
+</web-app>
