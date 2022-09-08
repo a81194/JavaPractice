@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ForkJoinTask_RecursiveAction/ForkJoinTask_RecursiveAction.iml" filepath="$PROJECT_DIR$/ForkJoinTask_RecursiveAction/ForkJoinTask_RecursiveAction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ForkJoinTask_RecursiveTask/ForkJoinTask_RecursiveTask.iml" filepath="$PROJECT_DIR$/ForkJoinTask_RecursiveTask/ForkJoinTask_RecursiveTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/IdeaProjects.iml" filepath="$PROJECT_DIR$/.idea/IdeaProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaChapter6/JavaChapter6.iml" filepath="$PROJECT_DIR$/JavaChapter6/JavaChapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProducerConsumerThread/ProducerConsumerThread.iml" filepath="$PROJECT_DIR$/ProducerConsumerThread/ProducerConsumerThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SemaphoreThreads/SemaphoreThreads.iml" filepath="$PROJECT_DIR$/SemaphoreThreads/SemaphoreThreads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerAndClient/ServerAndClient.iml" filepath="$PROJECT_DIR$/ServerAndClient/ServerAndClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServerClientSendObj/ServerClientSendObj.iml" filepath="$PROJECT_DIR$/ServerClientSendObj/ServerClientSendObj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WithdrawDepositThreads/WithdrawDepositThreads.iml" filepath="$PROJECT_DIR$/WithdrawDepositThreads/WithdrawDepositThreads.iml" />
+    </modules>
+  </component>
+</project>
