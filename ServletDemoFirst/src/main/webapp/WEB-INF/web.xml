@@ -23,6 +23,15 @@
     <servlet-name>HiddenValueRegistration</servlet-name>
     <servlet-class>HiddenValueRegistration</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>RegistrationWithCookie</servlet-name>
+    <servlet-class>RegistrationWithCookie</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegistrationWithHttpSession</servlet-name>
+    <servlet-class>RegistrationWithHttpSession</servlet-class>
+  </servlet>
+
 
   <servlet-mapping>
     <servlet-name>HttpServlet</servlet-name>
@@ -43,6 +52,14 @@
   <servlet-mapping>
     <servlet-name>HiddenValueRegistration</servlet-name>
     <url-pattern>/hiddenRegis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistrationWithCookie</servlet-name>
+    <url-pattern>/cookieRegis</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegistrationWithHttpSession</servlet-name>
+    <url-pattern>/httpsessionRegis</url-pattern>
   </servlet-mapping>
 
 </web-app>
