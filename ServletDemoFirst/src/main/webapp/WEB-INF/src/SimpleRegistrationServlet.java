@@ -68,7 +68,7 @@ public class SimpleRegistrationServlet extends HttpServlet {
 
             // Establish a connection
             Connection conn = DriverManager.getConnection
-                    ("jdbc:mysql://localhost:3306/servletdemodb?serverTimezone=CST", "yulin", "****");
+                    ("jdbc:mysql://localhost:3306/servletdemodb?serverTimezone=CST", "yulin", "*****");
             System.out.println("Database connected");
 
             // Create a Statement

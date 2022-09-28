@@ -19,6 +19,10 @@
     <servlet-name>SimpleRegistrationServlet</servlet-name>
     <servlet-class>SimpleRegistrationServlet</servlet-class>
   </servlet>
+  <servlet>
+    <servlet-name>HiddenValueRegistration</servlet-name>
+    <servlet-class>HiddenValueRegistration</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>HttpServlet</servlet-name>
@@ -35,6 +39,10 @@
   <servlet-mapping>
     <servlet-name>SimpleRegistrationServlet</servlet-name>
     <url-pattern>/db</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HiddenValueRegistration</servlet-name>
+    <url-pattern>/hiddenRegis</url-pattern>
   </servlet-mapping>
 
 </web-app>
